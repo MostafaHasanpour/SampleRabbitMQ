@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleRabbitMQ", "SampleRabbitMQ\SampleRabbitMQ.csproj", "{B9204B12-4524-4E4D-924B-D8DF0B0EECE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendSample", "SendSample\SendSample.csproj", "{129FE6CC-74AA-4F3A-90FA-D6CF0C0B0640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveSample", "ReceiveSample\ReceiveSample.csproj", "{F8B46744-9E07-4D03-8B99-F6992C931230}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B9204B12-4524-4E4D-924B-D8DF0B0EECE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9204B12-4524-4E4D-924B-D8DF0B0EECE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9204B12-4524-4E4D-924B-D8DF0B0EECE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9204B12-4524-4E4D-924B-D8DF0B0EECE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129FE6CC-74AA-4F3A-90FA-D6CF0C0B0640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129FE6CC-74AA-4F3A-90FA-D6CF0C0B0640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129FE6CC-74AA-4F3A-90FA-D6CF0C0B0640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129FE6CC-74AA-4F3A-90FA-D6CF0C0B0640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B46744-9E07-4D03-8B99-F6992C931230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B46744-9E07-4D03-8B99-F6992C931230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B46744-9E07-4D03-8B99-F6992C931230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B46744-9E07-4D03-8B99-F6992C931230}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
